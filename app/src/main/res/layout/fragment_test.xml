@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.litesnap.open.open.popup.view.MyCoordinatorLayout
+    android:id="@+id/parent"
+    android:clickable="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        app:layout_behavior="@string/behavior_drift"
+        android:orientation="vertical">
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <Button
+                    android:text="Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" />
+                <Button
+                    android:text="Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" />
+                <Button
+                    android:text="Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" />
+                <Button
+                    android:text="Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp" />
+
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+</com.litesnap.open.open.popup.view.MyCoordinatorLayout>

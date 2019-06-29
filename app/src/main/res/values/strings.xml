@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DemoDriftPopupWindow</string>
+    <string name="behavior_drift">com.litesnap.open.open.popup.behavior.DefirtPopupBehavior</string>
+</resources>
